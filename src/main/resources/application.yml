@@ -1,0 +1,27 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.8.92:3306/auto_transmission?serverTimezone=Asia/Shanghai&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+
+
+svnURL: "http://192.168.8.92:18080/svn/csvn/"
+workSpace: "D:/Work/SKEQI/Project/(oa-svn)/SVN/"
+svnUserName: "admin"
+svnUserPassword: "admin"
+
+svnServerIP: "192.168.8.92"
+svnServerUserName: "csvn"
+svnServerPassWord: "liuchunhao"
+svnAccessFileName: "svn_access_file"
+svnAuthFileName: "svn_auth_file"
+svnAccessFilePath: "/usr/local/software/csvn/data/conf/"
+localAccessFilePath: "D:/Work/SKEQI/Project/(oa-svn)/"
+svnRemoveAccessFileCommand: "cd /usr/local/software/csvn/data/conf && rm -rf svn_access_file"
